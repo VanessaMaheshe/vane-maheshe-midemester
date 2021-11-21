@@ -1,0 +1,97 @@
+body {
+    min-height: 100vh;
+    width: 100%;
+    background-image: url(./IMG.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+h1 {
+    text-align: center;
+    color: rgb(9, 77, 49);
+    padding: 100px;
+    ;
+}
+
+h3 {
+    text-align: center;
+    color: rgb(2, 44, 27);
+    font-weight: 600;
+    margin: 10px 0;
+}
+
+P {
+    width: 60%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    font-weight: 100;
+    line-height: 20px;
+    padding: 10px;
+}
+
+.iframe {}
+
+.row {
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.course-col {
+    flex-basis: 31%;
+    background: hsl(16, 43%, 76%);
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px;
+    box-sizing: border-box;
+    transition: 0.5s;
+}
+
+ul li {
+    list-style: none;
+}
+
+ul li a {
+    text-align: center;
+    color: rgb(63, 126, 54);
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: rgb(77, 83, 54);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100px;
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 18px;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.navbar a:hover {
+    background: #3564543b;
+    color: black;
+}
+
+.main {
+    padding: 16px;
+    margin-top: 30px;
+    height: 1500px;
+}
+
+.footer {
+    background: #3564543b;
+    color: antiquewhite;
+    height: 400px;
+}
